@@ -707,6 +707,11 @@ body.dark-theme {
   }
 }
 @media screen and (min-width: 1024px) {
+  .nav__list {
+    flex-direction: row;
+    -moz-column-gap: 0.7rem;
+    column-gap: 1.5rem;
+  }
   .services.section.container:last-child {
     margin-top: 0;
   }
