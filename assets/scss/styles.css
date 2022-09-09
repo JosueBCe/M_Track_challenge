@@ -467,6 +467,25 @@ body.dark-theme {
   margin-bottom: 2rem;
   justify-content: space-around;
 }
+.footer__email {
+  display: flex;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
+  border-radius: 0.8rem;
+}
+.footer .email {
+  border: solid 0.3px var(--text-color);
+  padding: 0.7rem 1.5rem;
+  background: #171717;
+  color: var(--text-color);
+  border-radius: 0.5rem;
+}
+.footer .sub_btn {
+  background-color: var(--first-color);
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 0.4rem;
+}
 
 /*=============== SCROLL UP ===============*/
 .scrollup {
