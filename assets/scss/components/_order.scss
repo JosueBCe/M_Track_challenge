@@ -2,15 +2,26 @@
 .order{
     &__container{
         gap: 2.5rem;
-        background-color: #FAFAFA;
+    
         width: 375px;
         height: 400px;
         padding-top: 4rem;
     }
     &__data{
-        text-align: left;
+        text-align:justify;
         margin-left:var(--mb-1-5);
         margin-right: var(--mb-1-5);
+        background-color: #FAFAFA;
+        padding-left:var(--mb-1-5);
+        padding-top: 1rem;
+        color: var(--text-color);
+        
+    }
+    .order__data p {
+        margin-top: 2rem;
+        padding: 2rem 1rem 1rem 1rem;
+        text-align: center;
+        
     }
     &__description{
         margin-bottom: var(--mb-1-5);
@@ -22,4 +33,10 @@
         justify-content: center;
         gap: .5rem
     }
-}
+    &__data li{
+        padding: 0.5rem 0rem 0.5rem 0rem ;
+        color: var(--text-color);
+        font-weight: 700;
+        font-size: 16px
+    }
+    }

@@ -1,8 +1,12 @@
 /*=============== SERVICES ===============*/
 .services{
     &__container{
+    
         padding-top: 1rem;
         color: var(--title-color);
+    }
+    &.section.container:last-child {
+        margin-top: 10rem;
     }
     &__data{
         display: block;
