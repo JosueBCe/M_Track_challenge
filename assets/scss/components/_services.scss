@@ -1,0 +1,53 @@
+/*=============== SERVICES ===============*/
+.services{
+    &__container{
+        padding-top: 1rem;
+        color: var(--title-color);
+    }
+    &__data{
+        display: block;
+        row-gap: 1rem;
+        background-color: var(--container-color);
+        box-shadow: 0px 2px 6px hsla(var(--hue), 100%, 15%, 0.15);
+        padding: 2rem 1.5rem;
+        border-radius: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+    &__img{
+        width: 135px;
+        justify-self: center;
+        margin-bottom: var(--mb-0-5);
+    }
+    .cart_name {
+        display: grid;
+        grid-template-columns: 70px 1fr 1fr 20px;
+        align-items: center;
+        text-align: left;
+    }
+
+    .cart_name img {
+        width: 70%;
+    }
+    
+    .cart_logo {
+        margin: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+        &__img {
+            width: 103px;
+            height: 30px;
+            
+        }
+    }
+    .cart_logo img {
+        width: 100px;
+        height: 26px;
+    }
+    .save_reset_btn  {
+        display: block;
+        justify-content: end;
+    
+    }
+
+}

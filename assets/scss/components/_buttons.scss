@@ -1,0 +1,44 @@
+/*=============== BUTTONS ===============*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: white; // Use color black for yellow
+    padding: .75rem 1.5rem;
+    border-radius: 3rem; 
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+    
+    &:hover{
+        background-color: var(--first-color-alt);
+    }
+
+    &__header{
+        display: none;
+    }
+
+    &-link{
+        background: none;
+        padding: 0.5rem 2rem;
+        color: var(--first-color-alt);
+        border: solid 1px var(--first-color-alt);
+        margin-left: 3rem;
+        &:hover{
+            background-color: transparent;
+        }
+        &:nth-child(odd) {
+            visibility:hidden;
+        }
+    }
+
+    &-flex{
+        display: inline-flex;
+        align-items: center;
+        column-gap: .25rem;
+        padding: .75rem 1rem;
+    }
+
+    &__icon{
+        font-size: 1.5rem;
+    }
+   
+}
