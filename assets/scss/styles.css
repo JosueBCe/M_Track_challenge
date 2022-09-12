@@ -710,6 +710,9 @@ body.dark-theme {
     -moz-column-gap: 6rem;
          column-gap: 6rem;
   }
+  section#services\ 1 {
+    height: 300px;
+  }
   /* .services__container{
       grid-template-columns: repeat(3, 1fr);
   } */
