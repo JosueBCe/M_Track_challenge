@@ -180,7 +180,7 @@ body.dark-theme {
   color: var(--text-color);
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 }
 .nav__toggle {
   font-size: 16px;
@@ -292,7 +292,7 @@ body.dark-theme {
   color: var(--title-color);
 }
 .services.section.container:last-child {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .services__data {
   display: block;
@@ -406,6 +406,7 @@ body.dark-theme {
 }
 .footer__container {
   row-gap: 2rem;
+  margin-bottom: 1rem;
 }
 .footer__logo, .footer__title {
   font-size: var(--h3-font-size);
@@ -433,6 +434,7 @@ body.dark-theme {
   display: flex;
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
+  align-items: center;
 }
 .footer__social-link {
   font-size: 1.25rem;
@@ -565,6 +567,10 @@ body.dark-theme {
   }
   .footer__bottom {
     display: block;
+    margin-bottom: 3.5rem;
+  }
+  .footer__email {
+    display: grid;
   }
   .footer__bottom p {
     margin-top: 1rem;
@@ -602,7 +608,7 @@ body.dark-theme {
     grid-template-columns: repeat(3, 1fr);
   }
   .footer__social {
-    align-items: flex-start;
+    align-items: center;
   }
   .footer__social-link {
     font-size: 1.45rem;
@@ -637,6 +643,9 @@ body.dark-theme {
   .order__container {
     height: 1650px;
   }
+  .services.section.container:last-child {
+    margin-top: 0;
+  }
   .section {
     padding: 6rem 0rem 0rem 0rem;
   }
@@ -651,6 +660,12 @@ body.dark-theme {
   .nav__toggle {
     display: none;
   }
+  .nav-img:first-child {
+    margin-right: 2rem;
+  }
+  nav.nav.container img:first-child {
+    margin-right: 2rem;
+  }
   .change-theme {
     position: initial;
   }
@@ -664,7 +679,7 @@ body.dark-theme {
     grid-template-columns: repeat(4, 1fr);
   }
   .footer__social {
-    align-items: flex-start;
+    align-items: center;
   }
   .footer__social-link {
     font-size: 1.45rem;
@@ -672,6 +687,12 @@ body.dark-theme {
   .footer__bottom p {
     margin-top: 2rem;
     margin-bottom: 3rem;
+  }
+  .footer__bottom {
+    margin-bottom: 0;
+  }
+  .footer__fixed {
+    visibility: hidden;
   }
 }
 /* For large devices */
@@ -700,7 +721,7 @@ body.dark-theme {
     grid-template-columns: repeat(5, 1fr);
   }
   .footer__social {
-    align-items: flex-start;
+    align-items: center;
   }
   .footer__social-link {
     font-size: 1.45rem;
@@ -712,8 +733,12 @@ body.dark-theme {
     -moz-column-gap: 0.7rem;
     column-gap: 1.5rem;
   }
+  .nav__link {
+    font-size: 16px;
+  }
   .services.section.container:last-child {
     margin-top: 0;
+    padding: 0;
   }
   .container {
     max-width: 1700px;

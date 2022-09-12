@@ -5,6 +5,7 @@
 
     &__container{
         row-gap: 2rem;
+        margin-bottom: 1rem;
     }
 
     &__logo, 
@@ -35,6 +36,7 @@
     &__social{
         display: flex;
         column-gap: 1.5rem;
+        align-items: center;
 
         &-link{
             font-size: 1.25rem;
