@@ -108,6 +108,7 @@
     .main {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        margin-bottom: 1rem;
     }
     .order {
         grid-column: 2/2;
