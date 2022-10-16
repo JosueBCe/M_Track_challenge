@@ -84,7 +84,27 @@ themeButton.addEventListener('click', () => {
     // Add or remove the dark / icon theme
     document.body.classList.toggle(darkTheme)
     themeButton.classList.toggle(iconTheme)
+    mt_dark_light() 
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+const mt_dark_light = () => {
+    let mt_image = document.getElementById("MT") 
+   
+    mt_image.style.borderRadius = "100px"
+    let body = document.querySelector("body")
+    if (body.classList.contains("dark-theme")){
+        mt_image.src = "assets/img/MT_dark.jpg"
+        mt_image.style.width = "45px"
+        mt_image.style.height = "45px"
+    } else {
+        mt_image.src = "assets/img/MT.png"
+        mt_image.style.width = "40px"
+        mt_image.style.height = "40px"
+    }
+   
+   
+}
+
