@@ -1,11 +1,17 @@
 /*=============== order ===============*/
-.order{
+.order {
     &__container{
         gap: 2.5rem;
-    
+        background-color: var(--container-color);
+        box-shadow: 7px 7px 7px hsla(var(--hue), 100%, 15%, 0.15);
+        border: solid 1px var(--text-color);
         width: 375px;
-        height: 400px;
-        padding-top: 4rem;
+        height: 600px;
+        padding: 1.5rem 1rem;
+        max-width: 968px;
+        margin: 1em auto;
+        border-radius: .3em;
+        align-self: center;
     }
     &__data{
         text-align:justify;
@@ -31,12 +37,16 @@
         display: grid;
         grid-template-columns: repeat(2, max-content);
         justify-content: center;
-        gap: .5rem
+        gap: .5rem;
+        margin: 1em;
     }
-    &__data li{
+    &__links{
+        margin-top: 1em;
+        
+        & li{
         padding: 0.5rem 0rem 0.5rem 0rem ;
         color: var(--text-color);
         font-weight: 700;
-        font-size: 16px
+        font-size: 16px} 
     }
     }
