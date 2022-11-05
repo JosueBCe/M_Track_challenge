@@ -81,15 +81,15 @@
     }
     .email {
         border: solid 0.3px var(--main-text-color);
-        padding: 0.7rem 1.5rem;
+        padding: 0.5rem 1.2rem;
         background: #171717;
         color: var(--main-text-color);
         border-radius: 0.5rem;
-        margin: 0 1rem;
     }
     .sub_btn {
         background-color: var(--first-color);
-        padding: 0.5rem 0.7rem;
+        width: 100px;
+        height: 40px;
         border: none;
         border-radius: 0.4rem;
         margin: .5rem;
