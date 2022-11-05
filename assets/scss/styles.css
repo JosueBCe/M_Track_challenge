@@ -865,11 +865,11 @@ body.dark-theme {
   .searchTerm {
     visibility: visible;
     width: 70%;
-    border: solid 1px var(--first-color-alt);
+    border: solid 1px var(--main-text-color);
     border-radius: 0.4rem;
     padding: 0.4rem 1.5rem;
     float: right;
     align-items: center;
-    color: var(--first-color-alt);
+    color: rgb(49, 49, 49);
   }
 }/*# sourceMappingURL=styles.css.map */
